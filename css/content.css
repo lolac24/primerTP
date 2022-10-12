@@ -1,0 +1,78 @@
+body {
+    background-image: url(../img/fondoDos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 60px;
+    background: red;
+    color: white;
+}
+
+.web {
+    display: flex;
+    margin-left: 25px;
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+
+.button {
+    background: none;
+    margin-left: 25px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+.barraNav {
+    display: flex;
+    margin-left: 300px;
+}
+
+.itemNav {
+   background-color: rgb(255, 137, 137);
+   align-items: center;
+   padding: 13px;
+   border-radius: 15px;
+   margin: 5px;
+}
+
+a {
+    font-family: 'Inter Tight', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.videoContent {
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-left: 556px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.parrafoPlay {
+    margin-top: 25px;
+    margin-bottom: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(117, 64, 94);
+    text-align: center;
+}
+
+.videoPlay {
+    color: white;
+    font-size: 26px;
+    font-family: 'Inter Tight', sans-serif;
+}

@@ -1,0 +1,116 @@
+.header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 60px;
+    background: red;
+    color: white;
+}
+
+.web {
+    display: flex;
+    margin-left: 25px;
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+
+.button {
+    background: none;
+    margin-left: 25px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+.barraNav {
+    display: flex;
+    margin-left: 300px;
+}
+
+.itemNav {
+   background-color: rgb(255, 137, 137);
+   align-items: center;
+   padding: 13px;
+   border-radius: 15px;
+   margin: 5px;
+}
+
+a {
+    font-family: 'Inter Tight', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.seccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family:sans-serif;
+}
+
+
+.seccionUno {
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo {
+    display: flex;
+    font-size:25px;
+}
+
+.lorem {
+    display: flex;
+    margin-top: 15px;
+}
+
+.seccionDos {
+    display: flex;
+    background-color: red;
+    color: white;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.secciones {
+    margin: 3%;
+    font-size: 20px;
+}
+
+.seccionTres {
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bi-c-circle {
+    color: white;
+    margin-top: 10px;
+}
+
+.menuText {
+    font-size: 20px;
+    font-family: 'Inter Tight', sans-serif;
+}
+
+
